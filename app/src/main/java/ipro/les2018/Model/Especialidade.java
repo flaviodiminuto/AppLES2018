@@ -27,7 +27,8 @@ public class Especialidade  {
     }
 
     Especialidade() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.nome = "";
+        this.descricao = "";
     }
 
     public int getId() {
